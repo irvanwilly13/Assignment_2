@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FoodCategoryCollectionViewCell" customModule="OrderPastaFoodApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="110"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IRT-ku-P7J">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="110"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spageti1" translatesAutoresizingMaskIntoConstraints="NO" id="aXc-4t-Hyz">
+                                <rect key="frame" x="5" y="3" width="70" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Fr9-KA-w5q"/>
+                                    <constraint firstAttribute="width" constant="70" id="cz2-Xk-A1x"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spagethi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8R-Mr-J1M">
+                                <rect key="frame" x="5" y="81" width="70" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aXc-4t-Hyz" firstAttribute="top" secondItem="IRT-ku-P7J" secondAttribute="top" constant="3" id="4Sn-K6-ouj"/>
+                            <constraint firstItem="aXc-4t-Hyz" firstAttribute="centerX" secondItem="IRT-ku-P7J" secondAttribute="centerX" id="HNL-Zs-BPO"/>
+                            <constraint firstItem="S8R-Mr-J1M" firstAttribute="top" secondItem="aXc-4t-Hyz" secondAttribute="bottom" constant="8" symbolic="YES" id="Kgu-K0-f0W"/>
+                            <constraint firstItem="S8R-Mr-J1M" firstAttribute="leading" secondItem="IRT-ku-P7J" secondAttribute="leading" constant="5" id="mU6-Dr-XYO"/>
+                            <constraint firstAttribute="height" constant="110" id="n7h-x2-9k7"/>
+                            <constraint firstAttribute="trailing" secondItem="S8R-Mr-J1M" secondAttribute="trailing" constant="5" id="unH-x6-Qf0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="IRT-ku-P7J" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2Ja-fP-rbk"/>
+                <constraint firstItem="IRT-ku-P7J" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Bfp-oQ-afH"/>
+                <constraint firstAttribute="bottom" secondItem="IRT-ku-P7J" secondAttribute="bottom" id="sIu-Gw-8f9"/>
+                <constraint firstAttribute="trailing" secondItem="IRT-ku-P7J" secondAttribute="trailing" id="x6r-tU-NH6"/>
+            </constraints>
+            <size key="customSize" width="80" height="110"/>
+            <connections>
+                <outlet property="categoryLabel" destination="S8R-Mr-J1M" id="PTP-jV-ltF"/>
+                <outlet property="containerView" destination="IRT-ku-P7J" id="2Fx-9n-fez"/>
+                <outlet property="imgView" destination="aXc-4t-Hyz" id="k7R-63-EUK"/>
+            </connections>
+            <point key="canvasLocation" x="4.5801526717557248" y="40.140845070422536"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="spageti1" width="1080" height="1080"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

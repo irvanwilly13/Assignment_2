@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PromoCollectionViewCell" customModule="OrderPastaFoodApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="240" height="110"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lSj-GV-07m">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="110"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="promosi1" translatesAutoresizingMaskIntoConstraints="NO" id="Blz-lw-LQB">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="110"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="110" id="AGu-Bn-0OF"/>
+                            <constraint firstAttribute="trailing" secondItem="Blz-lw-LQB" secondAttribute="trailing" id="RGU-gR-6Nv"/>
+                            <constraint firstItem="Blz-lw-LQB" firstAttribute="top" secondItem="lSj-GV-07m" secondAttribute="top" id="S6c-hB-v1P"/>
+                            <constraint firstItem="Blz-lw-LQB" firstAttribute="leading" secondItem="lSj-GV-07m" secondAttribute="leading" id="Tjp-Qs-OM1"/>
+                            <constraint firstAttribute="bottom" secondItem="Blz-lw-LQB" secondAttribute="bottom" id="pIe-T4-L1L"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="lSj-GV-07m" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MVO-8S-4uf"/>
+                <constraint firstItem="lSj-GV-07m" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="gXY-5t-Akm"/>
+                <constraint firstAttribute="trailing" secondItem="lSj-GV-07m" secondAttribute="trailing" id="h5E-UB-DH6"/>
+                <constraint firstAttribute="bottom" secondItem="lSj-GV-07m" secondAttribute="bottom" id="pnH-lL-fa2"/>
+            </constraints>
+            <size key="customSize" width="240" height="110"/>
+            <connections>
+                <outlet property="imgView" destination="Blz-lw-LQB" id="hRL-f2-B90"/>
+            </connections>
+            <point key="canvasLocation" x="184.73282442748092" y="41.549295774647888"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="promosi1" width="1792" height="1024"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

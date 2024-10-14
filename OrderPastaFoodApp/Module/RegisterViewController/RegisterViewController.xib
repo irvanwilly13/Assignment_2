@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterViewController" customModule="OrderPastaFoodApp" customModuleProvider="target">
+            <connections>
+                <outlet property="confirmPasswordField" destination="QzD-Lw-c1t" id="ET1-Y6-joX"/>
+                <outlet property="createAccountButton" destination="rSz-UB-CT3" id="0QP-NB-ZzU"/>
+                <outlet property="passwordField" destination="NTF-iz-yTq" id="caF-h1-GUC"/>
+                <outlet property="usernameField" destination="neu-3j-ggu" id="3Pd-ae-bgp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register Account" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xe6-Nn-DSo">
+                    <rect key="frame" x="16" y="79" width="361" height="26.333333333333329"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="szn-3K-i8Z">
+                    <rect key="frame" x="16" y="140.33333333333337" width="361" height="379"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="neu-3j-ggu" customClass="CustomInputField" customModule="OrderPastaFoodApp" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="361" height="121"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NTF-iz-yTq" customClass="CustomInputField" customModule="OrderPastaFoodApp" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="128.99999999999997" width="361" height="121"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QzD-Lw-c1t" customClass="CustomInputField" customModule="OrderPastaFoodApp" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="258" width="361" height="121"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="379" id="Uyy-5T-6B4"/>
+                        <constraint firstItem="NTF-iz-yTq" firstAttribute="top" secondItem="szn-3K-i8Z" secondAttribute="top" constant="128.99999999999997" id="aye-Km-C0C"/>
+                        <constraint firstItem="NTF-iz-yTq" firstAttribute="centerY" secondItem="szn-3K-i8Z" secondAttribute="centerY" id="pfc-dt-FpO"/>
+                    </constraints>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSz-UB-CT3">
+                    <rect key="frame" x="16" y="579.33333333333337" width="361" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="leU-19-fDp"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Create Account">
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rSz-UB-CT3" secondAttribute="trailing" constant="16" id="1Lc-Rt-jnO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="szn-3K-i8Z" secondAttribute="trailing" constant="16" id="8QD-MJ-ytm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xe6-Nn-DSo" secondAttribute="trailing" constant="16" id="HOv-Bw-9yS"/>
+                <constraint firstItem="rSz-UB-CT3" firstAttribute="top" secondItem="szn-3K-i8Z" secondAttribute="bottom" constant="60" id="LuN-9X-WCF"/>
+                <constraint firstItem="rSz-UB-CT3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="NJD-XN-CqW"/>
+                <constraint firstItem="xe6-Nn-DSo" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="R3I-0j-nQF"/>
+                <constraint firstItem="xe6-Nn-DSo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="R8C-xY-10G"/>
+                <constraint firstItem="szn-3K-i8Z" firstAttribute="top" secondItem="xe6-Nn-DSo" secondAttribute="bottom" constant="35" id="hg8-qi-XQg"/>
+                <constraint firstItem="szn-3K-i8Z" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="v3x-HU-TJb"/>
+            </constraints>
+            <point key="canvasLocation" x="22.137404580152669" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
