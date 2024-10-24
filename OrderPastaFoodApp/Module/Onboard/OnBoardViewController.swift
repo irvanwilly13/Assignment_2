@@ -9,6 +9,8 @@ import UIKit
 
 class OnBoardViewController: UIViewController {
     
+    @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var versionLabel: UILabel!
     @IBOutlet weak var nowLabel: UILabel!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var registerButton: UIButton!
@@ -17,10 +19,14 @@ class OnBoardViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .red
         setup()
+        
     }
     func setup() {
         loginButton.addTarget(self, action: #selector(actionToLogin), for: .touchUpInside)
         registerButton.addTarget(self, action: #selector(actionToRegister), for: .touchUpInside)
+        
+        self.versionLabel.text = RemoteConfigManager.shared.versionApp
+        self.messageLabel.text = RemoteConfigManager.shared.welcomeMessage
     }
     @objc func actionToLogin() {
         let vc = LoginViewController()

@@ -10,8 +10,10 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnBoardViewController" customModule="OrderPastaFoodApp" customModuleProvider="target">
             <connections>
                 <outlet property="loginButton" destination="Hl8-iP-Ube" id="BoX-Ye-2Nn"/>
+                <outlet property="messageLabel" destination="wAe-yv-fee" id="DWl-Vl-psC"/>
                 <outlet property="nowLabel" destination="b6Q-ru-Ywy" id="Knx-ua-uqN"/>
                 <outlet property="registerButton" destination="7RT-Vk-ZIe" id="idF-mu-T28"/>
+                <outlet property="versionLabel" destination="EJT-Ol-v0P" id="AA9-YC-g0s"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="Mho-6C-2lv"/>
             </connections>
         </placeholder>
@@ -32,7 +34,7 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Your Food NOW!!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6Q-ru-Ywy">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Order Your Food NOW!!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6Q-ru-Ywy">
                     <rect key="frame" x="16" y="414" width="361" height="88.333333333333314"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="37"/>
@@ -71,19 +73,38 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EJT-Ol-v0P">
+                    <rect key="frame" x="16" y="800" width="361" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAe-yv-fee">
+                    <rect key="frame" x="50" y="713" width="293" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="0.1647058874" green="0.25490197539999998" blue="0.26666668059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <constraints>
                 <constraint firstItem="Hl8-iP-Ube" firstAttribute="top" secondItem="b6Q-ru-Ywy" secondAttribute="bottom" constant="55" id="0wh-oo-l7W"/>
+                <constraint firstItem="wAe-yv-fee" firstAttribute="top" secondItem="7RT-Vk-ZIe" secondAttribute="bottom" constant="45.670000000000002" id="3yk-NG-Vgz"/>
                 <constraint firstItem="5XF-dV-vFZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="60" id="IDu-0M-HAh"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7RT-Vk-ZIe" secondAttribute="trailing" constant="40" id="JJV-fE-WY3"/>
+                <constraint firstItem="wAe-yv-fee" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="Jti-GQ-QmQ"/>
+                <constraint firstItem="EJT-Ol-v0P" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="L1c-Mo-dcU"/>
                 <constraint firstItem="b6Q-ru-Ywy" firstAttribute="top" secondItem="5XF-dV-vFZ" secondAttribute="bottom" constant="55" id="MCG-PC-MZk"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Hl8-iP-Ube" secondAttribute="trailing" constant="16" id="PIx-dX-D1C"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="wAe-yv-fee" secondAttribute="trailing" constant="50" id="ROf-nk-lUr"/>
                 <constraint firstItem="5XF-dV-vFZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="TCt-gu-Ps2"/>
+                <constraint firstItem="EJT-Ol-v0P" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="XsA-fO-wgW"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="b6Q-ru-Ywy" secondAttribute="trailing" constant="16" id="j1R-9L-Pr2"/>
+                <constraint firstItem="EJT-Ol-v0P" firstAttribute="top" secondItem="wAe-yv-fee" secondAttribute="bottom" constant="66" id="jju-d4-Bzu"/>
                 <constraint firstItem="7RT-Vk-ZIe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="lAx-Ox-eOg"/>
                 <constraint firstItem="Hl8-iP-Ube" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="mxb-8M-w6N"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="EJT-Ol-v0P" secondAttribute="trailing" constant="16" id="oRz-Cv-d77"/>
                 <constraint firstItem="b6Q-ru-Ywy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="qJf-BU-PRG"/>
                 <constraint firstItem="7RT-Vk-ZIe" firstAttribute="top" secondItem="Hl8-iP-Ube" secondAttribute="bottom" constant="30" id="tXB-Ix-l9N"/>
             </constraints>

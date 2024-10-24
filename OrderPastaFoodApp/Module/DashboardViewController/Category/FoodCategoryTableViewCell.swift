@@ -62,6 +62,4 @@ extension FoodCategoryTableViewCell: UICollectionViewDelegate, UICollectionViewD
             let selectedCategory = categoryItems[indexPath.row].category
             onSelectCategory?(selectedCategory)
         }
-
-    
 }

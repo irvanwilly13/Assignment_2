@@ -24,7 +24,7 @@ class MainTabBarController: UITabBarController {
     
     let dashboard = UINavigationController(rootViewController: DashboardViewController())
     let chart = UINavigationController(rootViewController: ChartViewController())
-    let middle = UINavigationController(rootViewController: VoucherViewController())
+    let middle = UINavigationController(rootViewController: ExampleCoreDataViewController())
     let history = UINavigationController(rootViewController: HistoryViewController())
     let profile = UINavigationController(rootViewController: ProfileViewController())
     

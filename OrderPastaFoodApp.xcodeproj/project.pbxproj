@@ -21,13 +21,28 @@
 		6831FD802CBA173B002AC19B /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6831FD7E2CBA173B002AC19B /* HistoryTableViewCell.swift */; };
 		6831FD812CBA173B002AC19B /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6831FD7F2CBA173B002AC19B /* HistoryTableViewCell.xib */; };
 		6831FD832CBA174D002AC19B /* ModelHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6831FD822CBA174D002AC19B /* ModelHistory.swift */; };
-		6860B5032CB65F7F00AB0165 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6860B5022CB65F7F00AB0165 /* GoogleService-Info.plist */; };
+		684CA4CC2CC0CF5B0059F371 /* PaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684CA4CB2CC0CF5B0059F371 /* PaymentViewController.xib */; };
+		684CA4CD2CC0CF5B0059F371 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CA4CA2CC0CF5B0059F371 /* PaymentViewController.swift */; };
+		684CA4D02CC0E7150059F371 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 684CA4CF2CC0E7150059F371 /* RxCocoa */; };
+		684CA4D22CC0E7150059F371 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 684CA4D12CC0E7150059F371 /* RxRelay */; };
+		684CA4D42CC0E7150059F371 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 684CA4D32CC0E7150059F371 /* RxSwift */; };
+		684CA4D82CC0E7660059F371 /* RxSwiftImplementationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684CA4D72CC0E7660059F371 /* RxSwiftImplementationViewController.xib */; };
+		684CA4D92CC0E7660059F371 /* RxSwiftImplementationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CA4D62CC0E7660059F371 /* RxSwiftImplementationViewController.swift */; };
+		684CA4DB2CC102470059F371 /* RxSwiftImplementationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CA4DA2CC102470059F371 /* RxSwiftImplementationViewModel.swift */; };
+		684CA4E12CC106AB0059F371 /* RxSwiftTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684CA4E02CC106AB0059F371 /* RxSwiftTestViewController.xib */; };
+		684CA4E22CC106AB0059F371 /* RxSwiftTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CA4DF2CC106AB0059F371 /* RxSwiftTestViewController.swift */; };
+		684CA4E42CC106C90059F371 /* RxSwiftTestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CA4E32CC106C90059F371 /* RxSwiftTestViewModel.swift */; };
+		684CA4E82CC10DB70059F371 /* RxCocoaTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684CA4E72CC10DB70059F371 /* RxCocoaTestViewController.xib */; };
+		684CA4E92CC10DB70059F371 /* RxCocoaTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684CA4E62CC10DB70059F371 /* RxCocoaTestViewController.swift */; };
 		6860B5092CB6607700AB0165 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6860B5082CB6607700AB0165 /* FirebaseAuth */; };
 		6860B50B2CB6612F00AB0165 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860B50A2CB6612F00AB0165 /* BaseViewController.swift */; };
 		6860B50F2CB662FB00AB0165 /* CustomPopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6860B50E2CB662FB00AB0165 /* CustomPopUpViewController.xib */; };
 		6860B5102CB662FB00AB0165 /* CustomPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860B50D2CB662FB00AB0165 /* CustomPopUpViewController.swift */; };
 		6860B5122CB66B1200AB0165 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860B5112CB66B1200AB0165 /* KeychainHelper.swift */; };
 		6860B5142CB6814700AB0165 /* Ext+UiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860B5132CB6814700AB0165 /* Ext+UiView.swift */; };
+		687A1AC82CC20061000A591E /* UserTransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687A1AC72CC20061000A591E /* UserTransactionTableViewCell.xib */; };
+		687A1AC92CC20061000A591E /* UserTransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A1AC62CC20061000A591E /* UserTransactionTableViewCell.swift */; };
+		687A1ACB2CC23B60000A591E /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A1ACA2CC23B60000A591E /* BaseViewModel.swift */; };
 		687B8B822CBBBAB60016B412 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 687B8B802CBBBAB60016B412 /* Localizable.strings */; };
 		689125A42CB4E4D600A47A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689125A32CB4E4D600A47A44 /* AppDelegate.swift */; };
 		689125A62CB4E4D600A47A44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689125A52CB4E4D600A47A44 /* SceneDelegate.swift */; };
@@ -67,10 +82,43 @@
 		689126162CB5315200A47A44 /* PromoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689126132CB5315200A47A44 /* PromoCollectionViewCell.swift */; };
 		689126192CB5317700A47A44 /* AdsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 689126182CB5317700A47A44 /* AdsTableViewCell.xib */; };
 		6891261A2CB5317700A47A44 /* AdsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689126172CB5317700A47A44 /* AdsTableViewCell.swift */; };
+		68B09CEA2CBE0A4D00C2EC1A /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B09CE92CBE0A4D00C2EC1A /* DashboardViewModel.swift */; };
+		68B09CF72CBE2C4800C2EC1A /* ErrorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68B09CF62CBE2C4800C2EC1A /* ErrorViewController.xib */; };
+		68B09CF82CBE2C4800C2EC1A /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B09CF52CBE2C4800C2EC1A /* ErrorViewController.swift */; };
+		68B09CFA2CBF6E7100C2EC1A /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B09CF92CBF6E7100C2EC1A /* LoginModel.swift */; };
+		68B09CFC2CBF70AF00C2EC1A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B09CFB2CBF70AF00C2EC1A /* LoginViewModel.swift */; };
+		68B09CFE2CBFACE900C2EC1A /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B09CFD2CBFACE900C2EC1A /* RegisterModel.swift */; };
+		68B09D002CBFACF700C2EC1A /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B09CFF2CBFACF700C2EC1A /* RegisterViewModel.swift */; };
+		68BD0CD52CBCF110004385A4 /* URLSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68BD0CD42CBCF110004385A4 /* URLSessionViewController.xib */; };
+		68BD0CD62CBCF110004385A4 /* URLSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0CD32CBCF110004385A4 /* URLSessionViewController.swift */; };
+		68BD0CDB2CBCF260004385A4 /* ItemPlaceholderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68BD0CDA2CBCF260004385A4 /* ItemPlaceholderTableViewCell.xib */; };
+		68BD0CDC2CBCF260004385A4 /* ItemPlaceholderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0CD92CBCF260004385A4 /* ItemPlaceholderTableViewCell.swift */; };
+		68BD0CDE2CBCF672004385A4 /* URLSessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0CDD2CBCF672004385A4 /* URLSessionModel.swift */; };
+		68BD0CE02CBCF6E1004385A4 /* URLSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0CDF2CBCF6E1004385A4 /* URLSessionViewModel.swift */; };
+		68BD0CE32CBCFEC0004385A4 /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = 68BD0CE22CBCFEC0004385A4 /* netfox */; };
+		68BD0CE62CBD022B004385A4 /* userPlaceholderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68BD0CE52CBD022B004385A4 /* userPlaceholderTableViewCell.xib */; };
+		68BD0CE72CBD022B004385A4 /* userPlaceholderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0CE42CBD022B004385A4 /* userPlaceholderTableViewCell.swift */; };
+		68BD0CED2CBD0BB5004385A4 /* EndpointAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0CEC2CBD0BB5004385A4 /* EndpointAPI.swift */; };
+		68BD0CEF2CBD0F63004385A4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD0CEE2CBD0F63004385A4 /* NetworkManager.swift */; };
+		68BD0CF22CBD26E5004385A4 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 68BD0CF12CBD26E5004385A4 /* SkeletonView */; };
+		68CB27702CC9F0B900BF28AE /* OrderPastaFoodApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68CB276E2CC9F0B800BF28AE /* OrderPastaFoodApp.xcdatamodeld */; };
+		68CB27732CC9F31D00BF28AE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB27722CC9F31D00BF28AE /* CoreDataManager.swift */; };
+		68CB277B2CC9F90800BF28AE /* ExampleCoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB27792CC9F90800BF28AE /* ExampleCoreDataViewController.swift */; };
+		68CB277C2CC9F90800BF28AE /* ExampleCoreDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68CB277A2CC9F90800BF28AE /* ExampleCoreDataViewController.xib */; };
+		68CB277F2CC9F94D00BF28AE /* ExampleCoreDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB277D2CC9F94D00BF28AE /* ExampleCoreDataTableViewCell.swift */; };
+		68CB27802CC9F94D00BF28AE /* ExampleCoreDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68CB277E2CC9F94D00BF28AE /* ExampleCoreDataTableViewCell.xib */; };
+		68CB27832CCA273700BF28AE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 68CB27822CCA273700BF28AE /* FirebaseAnalytics */; };
+		68CB27852CCA278000BF28AE /* FirebaseAnalyticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB27842CCA278000BF28AE /* FirebaseAnalyticManager.swift */; };
+		68CB27872CCA2D9100BF28AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68CB27862CCA2D9100BF28AE /* GoogleService-Info.plist */; };
+		68CB27892CCA3E2C00BF28AE /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 68CB27882CCA3E2C00BF28AE /* FirebaseRemoteConfig */; };
+		68CB278B2CCA3E6B00BF28AE /* RemoteConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB278A2CCA3E6A00BF28AE /* RemoteConfigManager.swift */; };
 		68E1BB012CB564CE007F3D78 /* DetailFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1BAFF2CB564CE007F3D78 /* DetailFoodViewController.swift */; };
 		68E1BB022CB564CE007F3D78 /* DetailFoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E1BB002CB564CE007F3D78 /* DetailFoodViewController.xib */; };
 		68E1BB042CB56548007F3D78 /* ToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1BB032CB56548007F3D78 /* ToolBarView.swift */; };
 		68E1BB062CB56553007F3D78 /* ToolBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E1BB052CB56553007F3D78 /* ToolBarView.xib */; };
+		68EBD3072CC75402008D0AEE /* ExampleProgramaticallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBD3062CC75402008D0AEE /* ExampleProgramaticallyViewController.swift */; };
+		68EBD30A2CC75AEB008D0AEE /* ExampleSnapkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBD3092CC75AEB008D0AEE /* ExampleSnapkitViewController.swift */; };
+		68EBD30D2CC75B58008D0AEE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 68EBD30C2CC75B58008D0AEE /* SnapKit */; };
 		68FB84E42CB77BA1003AEB1D /* AdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FB84E22CB77BA1003AEB1D /* AdsViewController.swift */; };
 		68FB84E52CB77BA1003AEB1D /* AdsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68FB84E32CB77BA1003AEB1D /* AdsViewController.xib */; };
 		68FB84F82CB7A428003AEB1D /* LeftMenuBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FB84F62CB7A428003AEB1D /* LeftMenuBottomSheetViewController.swift */; };
@@ -98,12 +146,24 @@
 		6831FD7E2CBA173B002AC19B /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 		6831FD7F2CBA173B002AC19B /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 		6831FD822CBA174D002AC19B /* ModelHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelHistory.swift; sourceTree = "<group>"; };
-		6860B5022CB65F7F00AB0165 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		684CA4CA2CC0CF5B0059F371 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		684CA4CB2CC0CF5B0059F371 /* PaymentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentViewController.xib; sourceTree = "<group>"; };
+		684CA4D62CC0E7660059F371 /* RxSwiftImplementationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftImplementationViewController.swift; sourceTree = "<group>"; };
+		684CA4D72CC0E7660059F371 /* RxSwiftImplementationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftImplementationViewController.xib; sourceTree = "<group>"; };
+		684CA4DA2CC102470059F371 /* RxSwiftImplementationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftImplementationViewModel.swift; sourceTree = "<group>"; };
+		684CA4DF2CC106AB0059F371 /* RxSwiftTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftTestViewController.swift; sourceTree = "<group>"; };
+		684CA4E02CC106AB0059F371 /* RxSwiftTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftTestViewController.xib; sourceTree = "<group>"; };
+		684CA4E32CC106C90059F371 /* RxSwiftTestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftTestViewModel.swift; sourceTree = "<group>"; };
+		684CA4E62CC10DB70059F371 /* RxCocoaTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaTestViewController.swift; sourceTree = "<group>"; };
+		684CA4E72CC10DB70059F371 /* RxCocoaTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxCocoaTestViewController.xib; sourceTree = "<group>"; };
 		6860B50A2CB6612F00AB0165 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		6860B50D2CB662FB00AB0165 /* CustomPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpViewController.swift; sourceTree = "<group>"; };
 		6860B50E2CB662FB00AB0165 /* CustomPopUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomPopUpViewController.xib; sourceTree = "<group>"; };
 		6860B5112CB66B1200AB0165 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
 		6860B5132CB6814700AB0165 /* Ext+UiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UiView.swift"; sourceTree = "<group>"; };
+		687A1AC62CC20061000A591E /* UserTransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTransactionTableViewCell.swift; sourceTree = "<group>"; };
+		687A1AC72CC20061000A591E /* UserTransactionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTransactionTableViewCell.xib; sourceTree = "<group>"; };
+		687A1ACA2CC23B60000A591E /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		687B8B812CBBBAB60016B412 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		687B8B862CBBBD630016B412 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Main.strings; sourceTree = "<group>"; };
 		687B8B872CBBBD630016B412 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -148,10 +208,38 @@
 		689126142CB5315200A47A44 /* PromoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoCollectionViewCell.xib; sourceTree = "<group>"; };
 		689126172CB5317700A47A44 /* AdsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsTableViewCell.swift; sourceTree = "<group>"; };
 		689126182CB5317700A47A44 /* AdsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsTableViewCell.xib; sourceTree = "<group>"; };
+		68B09CE92CBE0A4D00C2EC1A /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		68B09CF52CBE2C4800C2EC1A /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		68B09CF62CBE2C4800C2EC1A /* ErrorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorViewController.xib; sourceTree = "<group>"; };
+		68B09CF92CBF6E7100C2EC1A /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		68B09CFB2CBF70AF00C2EC1A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		68B09CFD2CBFACE900C2EC1A /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		68B09CFF2CBFACF700C2EC1A /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		68BD0CD32CBCF110004385A4 /* URLSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionViewController.swift; sourceTree = "<group>"; };
+		68BD0CD42CBCF110004385A4 /* URLSessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = URLSessionViewController.xib; sourceTree = "<group>"; };
+		68BD0CD92CBCF260004385A4 /* ItemPlaceholderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPlaceholderTableViewCell.swift; sourceTree = "<group>"; };
+		68BD0CDA2CBCF260004385A4 /* ItemPlaceholderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemPlaceholderTableViewCell.xib; sourceTree = "<group>"; };
+		68BD0CDD2CBCF672004385A4 /* URLSessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionModel.swift; sourceTree = "<group>"; };
+		68BD0CDF2CBCF6E1004385A4 /* URLSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionViewModel.swift; sourceTree = "<group>"; };
+		68BD0CE42CBD022B004385A4 /* userPlaceholderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userPlaceholderTableViewCell.swift; sourceTree = "<group>"; };
+		68BD0CE52CBD022B004385A4 /* userPlaceholderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = userPlaceholderTableViewCell.xib; sourceTree = "<group>"; };
+		68BD0CEC2CBD0BB5004385A4 /* EndpointAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointAPI.swift; sourceTree = "<group>"; };
+		68BD0CEE2CBD0F63004385A4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		68CB276F2CC9F0B900BF28AE /* OrderPastaFoodApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OrderPastaFoodApp.xcdatamodel; sourceTree = "<group>"; };
+		68CB27722CC9F31D00BF28AE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		68CB27792CC9F90800BF28AE /* ExampleCoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCoreDataViewController.swift; sourceTree = "<group>"; };
+		68CB277A2CC9F90800BF28AE /* ExampleCoreDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleCoreDataViewController.xib; sourceTree = "<group>"; };
+		68CB277D2CC9F94D00BF28AE /* ExampleCoreDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCoreDataTableViewCell.swift; sourceTree = "<group>"; };
+		68CB277E2CC9F94D00BF28AE /* ExampleCoreDataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleCoreDataTableViewCell.xib; sourceTree = "<group>"; };
+		68CB27842CCA278000BF28AE /* FirebaseAnalyticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalyticManager.swift; sourceTree = "<group>"; };
+		68CB27862CCA2D9100BF28AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		68CB278A2CCA3E6A00BF28AE /* RemoteConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigManager.swift; sourceTree = "<group>"; };
 		68E1BAFF2CB564CE007F3D78 /* DetailFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFoodViewController.swift; sourceTree = "<group>"; };
 		68E1BB002CB564CE007F3D78 /* DetailFoodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailFoodViewController.xib; sourceTree = "<group>"; };
 		68E1BB032CB56548007F3D78 /* ToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarView.swift; sourceTree = "<group>"; };
 		68E1BB052CB56553007F3D78 /* ToolBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToolBarView.xib; sourceTree = "<group>"; };
+		68EBD3062CC75402008D0AEE /* ExampleProgramaticallyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProgramaticallyViewController.swift; sourceTree = "<group>"; };
+		68EBD3092CC75AEB008D0AEE /* ExampleSnapkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSnapkitViewController.swift; sourceTree = "<group>"; };
 		68FB84E22CB77BA1003AEB1D /* AdsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsViewController.swift; sourceTree = "<group>"; };
 		68FB84E32CB77BA1003AEB1D /* AdsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsViewController.xib; sourceTree = "<group>"; };
 		68FB84F62CB7A428003AEB1D /* LeftMenuBottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuBottomSheetViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +257,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68CB27892CCA3E2C00BF28AE /* FirebaseRemoteConfig in Frameworks */,
+				684CA4D42CC0E7150059F371 /* RxSwift in Frameworks */,
+				684CA4D22CC0E7150059F371 /* RxRelay in Frameworks */,
+				68CB27832CCA273700BF28AE /* FirebaseAnalytics in Frameworks */,
+				68BD0CE32CBCFEC0004385A4 /* netfox in Frameworks */,
+				68EBD30D2CC75B58008D0AEE /* SnapKit in Frameworks */,
+				68BD0CF22CBD26E5004385A4 /* SkeletonView in Frameworks */,
+				684CA4D02CC0E7150059F371 /* RxCocoa in Frameworks */,
 				6860B5092CB6607700AB0165 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +326,54 @@
 			path = History;
 			sourceTree = "<group>";
 		};
+		684CA4C52CC0CE970059F371 /* PaymentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				684CA4CA2CC0CF5B0059F371 /* PaymentViewController.swift */,
+				684CA4CB2CC0CF5B0059F371 /* PaymentViewController.xib */,
+			);
+			path = PaymentViewController;
+			sourceTree = "<group>";
+		};
+		684CA4D52CC0E72D0059F371 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				684CA4E52CC10D920059F371 /* RxCocoa */,
+				684CA4DD2CC106850059F371 /* Test */,
+				684CA4DC2CC106720059F371 /* Implementation */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		684CA4DC2CC106720059F371 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				684CA4D62CC0E7660059F371 /* RxSwiftImplementationViewController.swift */,
+				684CA4D72CC0E7660059F371 /* RxSwiftImplementationViewController.xib */,
+				684CA4DA2CC102470059F371 /* RxSwiftImplementationViewModel.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		684CA4DD2CC106850059F371 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				684CA4DF2CC106AB0059F371 /* RxSwiftTestViewController.swift */,
+				684CA4E02CC106AB0059F371 /* RxSwiftTestViewController.xib */,
+				684CA4E32CC106C90059F371 /* RxSwiftTestViewModel.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		684CA4E52CC10D920059F371 /* RxCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				684CA4E62CC10DB70059F371 /* RxCocoaTestViewController.swift */,
+				684CA4E72CC10DB70059F371 /* RxCocoaTestViewController.xib */,
+			);
+			path = RxCocoa;
+			sourceTree = "<group>";
+		};
 		6860B50C2CB662D500AB0165 /* PopUp */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +410,7 @@
 		689125A22CB4E4D600A47A44 /* OrderPastaFoodApp */ = {
 			isa = PBXGroup;
 			children = (
+				68BD0CE82CBD0B6F004385A4 /* Network */,
 				689125EF2CB5045800A47A44 /* Common */,
 				689125CE2CB4E9C900A47A44 /* Component */,
 				689125B92CB4E52800A47A44 /* Module */,
@@ -275,7 +420,8 @@
 				689125A92CB4E4D600A47A44 /* Main.storyboard */,
 				689125AE2CB4E4D700A47A44 /* LaunchScreen.storyboard */,
 				689125B12CB4E4D700A47A44 /* Info.plist */,
-				6860B5022CB65F7F00AB0165 /* GoogleService-Info.plist */,
+				68CB27862CCA2D9100BF28AE /* GoogleService-Info.plist */,
+				68CB276E2CC9F0B800BF28AE /* OrderPastaFoodApp.xcdatamodeld */,
 			);
 			path = OrderPastaFoodApp;
 			sourceTree = "<group>";
@@ -302,6 +448,9 @@
 		689125B92CB4E52800A47A44 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				68CB27712CC9F30200BF28AE /* CoreDataManager */,
+				684CA4C52CC0CE970059F371 /* PaymentViewController */,
+				68BD0CD12CBCEBAA004385A4 /* Excercise */,
 				68153A442CBA29000099ACC2 /* VoucherViewController */,
 				68153A3E2CBA22150099ACC2 /* MusicViewController */,
 				6815F0AF2CB9024A00A455E1 /* DatePickerViewController */,
@@ -333,6 +482,8 @@
 			children = (
 				689125C52CB4E61100A47A44 /* LoginViewController.swift */,
 				689125C62CB4E61100A47A44 /* LoginViewController.xib */,
+				68B09CF92CBF6E7100C2EC1A /* LoginModel.swift */,
+				68B09CFB2CBF70AF00C2EC1A /* LoginViewModel.swift */,
 			);
 			path = LoginViewController;
 			sourceTree = "<group>";
@@ -342,6 +493,8 @@
 			children = (
 				689125CA2CB4E62500A47A44 /* RegisterViewController.swift */,
 				689125CB2CB4E62500A47A44 /* RegisterViewController.xib */,
+				68B09CFD2CBFACE900C2EC1A /* RegisterModel.swift */,
+				68B09CFF2CBFACF700C2EC1A /* RegisterViewModel.swift */,
 			);
 			path = RegisterViewController;
 			sourceTree = "<group>";
@@ -349,6 +502,7 @@
 		689125CE2CB4E9C900A47A44 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				68B09CEB2CBE2B8A00C2EC1A /* ErrorView */,
 				68FB84FA2CB7B462003AEB1D /* EmptyChart */,
 				68FB84F52CB7A406003AEB1D /* LeftMenuBottomSheet */,
 				6860B50C2CB662D500AB0165 /* PopUp */,
@@ -378,6 +532,7 @@
 				689125DF2CB5033F00A47A44 /* DashboardViewController.swift */,
 				689125E02CB5033F00A47A44 /* DashboardViewController.xib */,
 				689125F22CB50D7800A47A44 /* DashboardModel.swift */,
+				68B09CE92CBE0A4D00C2EC1A /* DashboardViewModel.swift */,
 			);
 			path = DashboardViewController;
 			sourceTree = "<group>";
@@ -419,8 +574,11 @@
 				689125F02CB5046A00A47A44 /* AppSetting.swift */,
 				689125FE2CB5227900A47A44 /* CustomLayoutCollectionView.swift */,
 				6860B50A2CB6612F00AB0165 /* BaseViewController.swift */,
+				687A1ACA2CC23B60000A591E /* BaseViewModel.swift */,
 				6860B5112CB66B1200AB0165 /* KeychainHelper.swift */,
 				6860B5132CB6814700AB0165 /* Ext+UiView.swift */,
+				68CB27842CCA278000BF28AE /* FirebaseAnalyticManager.swift */,
+				68CB278A2CCA3E6A00BF28AE /* RemoteConfigManager.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -467,6 +625,96 @@
 			path = Ads;
 			sourceTree = "<group>";
 		};
+		68B09CEB2CBE2B8A00C2EC1A /* ErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				68B09CF52CBE2C4800C2EC1A /* ErrorViewController.swift */,
+				68B09CF62CBE2C4800C2EC1A /* ErrorViewController.xib */,
+			);
+			path = ErrorView;
+			sourceTree = "<group>";
+		};
+		68BD0CD12CBCEBAA004385A4 /* Excercise */ = {
+			isa = PBXGroup;
+			children = (
+				68CB27782CC9F8E900BF28AE /* ExampleCoreData */,
+				68EBD3082CC75ACD008D0AEE /* Snapkit */,
+				68EBD3052CC74E17008D0AEE /* Programatically */,
+				684CA4D52CC0E72D0059F371 /* RxSwift */,
+				68BD0CD22CBCEBBF004385A4 /* UrlSessionImplementation */,
+			);
+			path = Excercise;
+			sourceTree = "<group>";
+		};
+		68BD0CD22CBCEBBF004385A4 /* UrlSessionImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				68BD0CD82CBCF132004385A4 /* Cell */,
+				68BD0CD32CBCF110004385A4 /* URLSessionViewController.swift */,
+				68BD0CD42CBCF110004385A4 /* URLSessionViewController.xib */,
+				68BD0CDF2CBCF6E1004385A4 /* URLSessionViewModel.swift */,
+				68BD0CDD2CBCF672004385A4 /* URLSessionModel.swift */,
+			);
+			path = UrlSessionImplementation;
+			sourceTree = "<group>";
+		};
+		68BD0CD82CBCF132004385A4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				68BD0CD92CBCF260004385A4 /* ItemPlaceholderTableViewCell.swift */,
+				68BD0CDA2CBCF260004385A4 /* ItemPlaceholderTableViewCell.xib */,
+				68BD0CE42CBD022B004385A4 /* userPlaceholderTableViewCell.swift */,
+				68BD0CE52CBD022B004385A4 /* userPlaceholderTableViewCell.xib */,
+				687A1AC62CC20061000A591E /* UserTransactionTableViewCell.swift */,
+				687A1AC72CC20061000A591E /* UserTransactionTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		68BD0CE82CBD0B6F004385A4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				68BD0CE92CBD0B7A004385A4 /* NetworkManagerByURLSession */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		68BD0CE92CBD0B7A004385A4 /* NetworkManagerByURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				68BD0CEC2CBD0BB5004385A4 /* EndpointAPI.swift */,
+				68BD0CEE2CBD0F63004385A4 /* NetworkManager.swift */,
+			);
+			path = NetworkManagerByURLSession;
+			sourceTree = "<group>";
+		};
+		68CB27712CC9F30200BF28AE /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				68CB27722CC9F31D00BF28AE /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		68CB27782CC9F8E900BF28AE /* ExampleCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				68CB27812CC9F9D500BF28AE /* Cell */,
+				68CB27792CC9F90800BF28AE /* ExampleCoreDataViewController.swift */,
+				68CB277A2CC9F90800BF28AE /* ExampleCoreDataViewController.xib */,
+			);
+			path = ExampleCoreData;
+			sourceTree = "<group>";
+		};
+		68CB27812CC9F9D500BF28AE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				68CB277D2CC9F94D00BF28AE /* ExampleCoreDataTableViewCell.swift */,
+				68CB277E2CC9F94D00BF28AE /* ExampleCoreDataTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		68E1BAFE2CB5648F007F3D78 /* DetailFoodViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -475,6 +723,22 @@
 				68FB85072CB7C93B003AEB1D /* DetaiItemChart.swift */,
 			);
 			path = DetailFoodViewController;
+			sourceTree = "<group>";
+		};
+		68EBD3052CC74E17008D0AEE /* Programatically */ = {
+			isa = PBXGroup;
+			children = (
+				68EBD3062CC75402008D0AEE /* ExampleProgramaticallyViewController.swift */,
+			);
+			path = Programatically;
+			sourceTree = "<group>";
+		};
+		68EBD3082CC75ACD008D0AEE /* Snapkit */ = {
+			isa = PBXGroup;
+			children = (
+				68EBD3092CC75AEB008D0AEE /* ExampleSnapkitViewController.swift */,
+			);
+			path = Snapkit;
 			sourceTree = "<group>";
 		};
 		68FB84E12CB77B7C003AEB1D /* AdsViewController */ = {
@@ -531,6 +795,14 @@
 			name = OrderPastaFoodApp;
 			packageProductDependencies = (
 				6860B5082CB6607700AB0165 /* FirebaseAuth */,
+				68BD0CE22CBCFEC0004385A4 /* netfox */,
+				68BD0CF12CBD26E5004385A4 /* SkeletonView */,
+				684CA4CF2CC0E7150059F371 /* RxCocoa */,
+				684CA4D12CC0E7150059F371 /* RxRelay */,
+				684CA4D32CC0E7150059F371 /* RxSwift */,
+				68EBD30C2CC75B58008D0AEE /* SnapKit */,
+				68CB27822CCA273700BF28AE /* FirebaseAnalytics */,
+				68CB27882CCA3E2C00BF28AE /* FirebaseRemoteConfig */,
 			);
 			productName = OrderPastaFoodApp;
 			productReference = 689125A02CB4E4D600A47A44 /* OrderPastaFoodApp.app */;
@@ -563,6 +835,10 @@
 			mainGroup = 689125972CB4E4D600A47A44;
 			packageReferences = (
 				6860B5072CB6607700AB0165 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				68BD0CE12CBCFEC0004385A4 /* XCRemoteSwiftPackageReference "netfox" */,
+				68BD0CF02CBD26E5004385A4 /* XCRemoteSwiftPackageReference "SkeletonView" */,
+				684CA4CE2CC0E7150059F371 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				68EBD30B2CC75B58008D0AEE /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 689125A12CB4E4D600A47A44 /* Products */;
 			projectDirPath = "";
@@ -581,6 +857,8 @@
 				689125C72CB4E61100A47A44 /* LoginViewController.xib in Resources */,
 				689125AD2CB4E4D700A47A44 /* Assets.xcassets in Resources */,
 				689125FC2CB5125600A47A44 /* FoodCategoryCollectionViewCell.xib in Resources */,
+				684CA4E12CC106AB0059F371 /* RxSwiftTestViewController.xib in Resources */,
+				68CB27872CCA2D9100BF28AE /* GoogleService-Info.plist in Resources */,
 				689125B02CB4E4D700A47A44 /* Base in Resources */,
 				68E1BB022CB564CE007F3D78 /* DetailFoodViewController.xib in Resources */,
 				6815F0B82CB908AE00A455E1 /* DatePickerViewController.xib in Resources */,
@@ -588,6 +866,9 @@
 				689125E12CB5033F00A47A44 /* DashboardViewController.xib in Resources */,
 				689125ED2CB5036600A47A44 /* ProfileViewController.xib in Resources */,
 				68FB85042CB7BCA9003AEB1D /* ChartViewTableViewCell.xib in Resources */,
+				68BD0CD52CBCF110004385A4 /* URLSessionViewController.xib in Resources */,
+				68CB27802CC9F94D00BF28AE /* ExampleCoreDataTableViewCell.xib in Resources */,
+				684CA4E82CC10DB70059F371 /* RxCocoaTestViewController.xib in Resources */,
 				689126112CB5314100A47A44 /* PromoTableViewCell.xib in Resources */,
 				6860B50F2CB662FB00AB0165 /* CustomPopUpViewController.xib in Resources */,
 				68FB84F92CB7A428003AEB1D /* LeftMenuBottomSheetViewController.xib in Resources */,
@@ -595,21 +876,27 @@
 				689125E52CB5034B00A47A44 /* ChartViewController.xib in Resources */,
 				6831FD7D2CBA171E002AC19B /* HistoryViewController.xib in Resources */,
 				68153A482CBA291B0099ACC2 /* VoucherViewController.xib in Resources */,
+				684CA4D82CC0E7660059F371 /* RxSwiftImplementationViewController.xib in Resources */,
 				68FB84E52CB77BA1003AEB1D /* AdsViewController.xib in Resources */,
+				687A1AC82CC20061000A591E /* UserTransactionTableViewCell.xib in Resources */,
 				68FB84FE2CB7B487003AEB1D /* EmptyView.xib in Resources */,
 				689126152CB5315200A47A44 /* PromoCollectionViewCell.xib in Resources */,
 				689125F82CB5124800A47A44 /* FoodCategoryTableViewCell.xib in Resources */,
+				68CB277C2CC9F90800BF28AE /* ExampleCoreDataViewController.xib in Resources */,
 				68153A4D2CBA2A290099ACC2 /* VoucherTableViewCell.xib in Resources */,
 				6891260D2CB5312E00A47A44 /* DetailCollectionViewCell.xib in Resources */,
 				689125BD2CB4E54100A47A44 /* OnBoardViewController.xib in Resources */,
 				689125AB2CB4E4D600A47A44 /* Base in Resources */,
+				68BD0CE62CBD022B004385A4 /* userPlaceholderTableViewCell.xib in Resources */,
 				68153A422CBA225F0099ACC2 /* MusicViewController.xib in Resources */,
 				689125CC2CB4E62500A47A44 /* RegisterViewController.xib in Resources */,
+				684CA4CC2CC0CF5B0059F371 /* PaymentViewController.xib in Resources */,
 				689126092CB5311F00A47A44 /* DetailTableViewCell.xib in Resources */,
 				689126192CB5317700A47A44 /* AdsTableViewCell.xib in Resources */,
 				689125D62CB4EBB400A47A44 /* CustomInputField.xib in Resources */,
 				6831FD812CBA173B002AC19B /* HistoryTableViewCell.xib in Resources */,
-				6860B5032CB65F7F00AB0165 /* GoogleService-Info.plist in Resources */,
+				68B09CF72CBE2C4800C2EC1A /* ErrorViewController.xib in Resources */,
+				68BD0CDB2CBCF260004385A4 /* ItemPlaceholderTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,45 +907,74 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				684CA4E92CC10DB70059F371 /* RxCocoaTestViewController.swift in Sources */,
+				68BD0CDE2CBCF672004385A4 /* URLSessionModel.swift in Sources */,
 				6891260A2CB5311F00A47A44 /* DetailTableViewCell.swift in Sources */,
 				689125F32CB50D7800A47A44 /* DashboardModel.swift in Sources */,
 				689125FF2CB5227900A47A44 /* CustomLayoutCollectionView.swift in Sources */,
 				689126122CB5314100A47A44 /* PromoTableViewCell.swift in Sources */,
 				6860B5122CB66B1200AB0165 /* KeychainHelper.swift in Sources */,
+				68B09CEA2CBE0A4D00C2EC1A /* DashboardViewModel.swift in Sources */,
 				68E1BB012CB564CE007F3D78 /* DetailFoodViewController.swift in Sources */,
+				68B09CFC2CBF70AF00C2EC1A /* LoginViewModel.swift in Sources */,
 				68153A4F2CBA2C680099ACC2 /* ModelVoucher.swift in Sources */,
+				68BD0CE02CBCF6E1004385A4 /* URLSessionViewModel.swift in Sources */,
 				68153A472CBA291B0099ACC2 /* VoucherViewController.swift in Sources */,
+				687A1ACB2CC23B60000A591E /* BaseViewModel.swift in Sources */,
 				689125A82CB4E4D600A47A44 /* ViewController.swift in Sources */,
 				68FB85032CB7BCA9003AEB1D /* ChartViewTableViewCell.swift in Sources */,
 				6891260E2CB5312E00A47A44 /* DetailCollectionViewCell.swift in Sources */,
+				687A1AC92CC20061000A591E /* UserTransactionTableViewCell.swift in Sources */,
 				689126162CB5315200A47A44 /* PromoCollectionViewCell.swift in Sources */,
 				689125E22CB5033F00A47A44 /* DashboardViewController.swift in Sources */,
+				684CA4CD2CC0CF5B0059F371 /* PaymentViewController.swift in Sources */,
+				684CA4E42CC106C90059F371 /* RxSwiftTestViewModel.swift in Sources */,
 				689125A42CB4E4D600A47A44 /* AppDelegate.swift in Sources */,
 				689125D92CB5025E00A47A44 /* MainTabBarController.swift in Sources */,
 				689125BE2CB4E54100A47A44 /* OnBoardViewController.swift in Sources */,
 				689125F92CB5124800A47A44 /* FoodCategoryTableViewCell.swift in Sources */,
 				6815F0B72CB908AE00A455E1 /* DatePickerViewController.swift in Sources */,
 				689125EE2CB5036600A47A44 /* ProfileViewController.swift in Sources */,
+				68CB27852CCA278000BF28AE /* FirebaseAnalyticManager.swift in Sources */,
+				68CB27702CC9F0B900BF28AE /* OrderPastaFoodApp.xcdatamodeld in Sources */,
+				684CA4D92CC0E7660059F371 /* RxSwiftImplementationViewController.swift in Sources */,
 				6891261A2CB5317700A47A44 /* AdsTableViewCell.swift in Sources */,
+				68CB277F2CC9F94D00BF28AE /* ExampleCoreDataTableViewCell.swift in Sources */,
+				68BD0CDC2CBCF260004385A4 /* ItemPlaceholderTableViewCell.swift in Sources */,
 				6831FD802CBA173B002AC19B /* HistoryTableViewCell.swift in Sources */,
+				68B09CFA2CBF6E7100C2EC1A /* LoginModel.swift in Sources */,
+				684CA4DB2CC102470059F371 /* RxSwiftImplementationViewModel.swift in Sources */,
 				689125CD2CB4E62500A47A44 /* RegisterViewController.swift in Sources */,
 				689125D42CB4EBA400A47A44 /* CustomInputField.swift in Sources */,
 				6831FD832CBA174D002AC19B /* ModelHistory.swift in Sources */,
 				68153A412CBA225F0099ACC2 /* MusicViewController.swift in Sources */,
 				68E1BB042CB56548007F3D78 /* ToolBarView.swift in Sources */,
 				68FB85082CB7C93B003AEB1D /* DetaiItemChart.swift in Sources */,
+				68BD0CE72CBD022B004385A4 /* userPlaceholderTableViewCell.swift in Sources */,
 				6860B5142CB6814700AB0165 /* Ext+UiView.swift in Sources */,
+				68EBD30A2CC75AEB008D0AEE /* ExampleSnapkitViewController.swift in Sources */,
 				689125C82CB4E61100A47A44 /* LoginViewController.swift in Sources */,
 				6860B50B2CB6612F00AB0165 /* BaseViewController.swift in Sources */,
 				689125FD2CB5125600A47A44 /* FoodCategoryCollectionViewCell.swift in Sources */,
+				68BD0CED2CBD0BB5004385A4 /* EndpointAPI.swift in Sources */,
+				68B09CF82CBE2C4800C2EC1A /* ErrorViewController.swift in Sources */,
+				68BD0CEF2CBD0F63004385A4 /* NetworkManager.swift in Sources */,
 				689125F12CB5046A00A47A44 /* AppSetting.swift in Sources */,
 				68FB84F82CB7A428003AEB1D /* LeftMenuBottomSheetViewController.swift in Sources */,
+				684CA4E22CC106AB0059F371 /* RxSwiftTestViewController.swift in Sources */,
+				68B09D002CBFACF700C2EC1A /* RegisterViewModel.swift in Sources */,
+				68CB27732CC9F31D00BF28AE /* CoreDataManager.swift in Sources */,
+				68CB278B2CCA3E6B00BF28AE /* RemoteConfigManager.swift in Sources */,
+				68EBD3072CC75402008D0AEE /* ExampleProgramaticallyViewController.swift in Sources */,
+				68BD0CD62CBCF110004385A4 /* URLSessionViewController.swift in Sources */,
+				68B09CFE2CBFACE900C2EC1A /* RegisterModel.swift in Sources */,
 				68FB84E42CB77BA1003AEB1D /* AdsViewController.swift in Sources */,
 				689125A62CB4E4D600A47A44 /* SceneDelegate.swift in Sources */,
 				68FB85062CB7C1BF003AEB1D /* ChartService.swift in Sources */,
 				68FB84FD2CB7B487003AEB1D /* EmptyView.swift in Sources */,
 				68153A4C2CBA2A290099ACC2 /* VoucherTableViewCell.swift in Sources */,
 				6860B5102CB662FB00AB0165 /* CustomPopUpViewController.swift in Sources */,
+				68CB277B2CC9F90800BF28AE /* ExampleCoreDataViewController.swift in Sources */,
 				6831FD7C2CBA171D002AC19B /* HistoryViewController.swift in Sources */,
 				689125E62CB5034B00A47A44 /* ChartViewController.swift in Sources */,
 			);
@@ -896,6 +1212,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		684CA4CE2CC0E7150059F371 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.8.0;
+			};
+		};
 		6860B5072CB6607700AB0165 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -904,15 +1228,93 @@
 				minimumVersion = 11.3.0;
 			};
 		};
+		68BD0CE12CBCFEC0004385A4 /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.21.0;
+			};
+		};
+		68BD0CF02CBD26E5004385A4 /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.31.0;
+			};
+		};
+		68EBD30B2CC75B58008D0AEE /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		684CA4CF2CC0E7150059F371 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 684CA4CE2CC0E7150059F371 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		684CA4D12CC0E7150059F371 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 684CA4CE2CC0E7150059F371 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		684CA4D32CC0E7150059F371 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 684CA4CE2CC0E7150059F371 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
 		6860B5082CB6607700AB0165 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 6860B5072CB6607700AB0165 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
+		68BD0CE22CBCFEC0004385A4 /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68BD0CE12CBCFEC0004385A4 /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+		68BD0CF12CBD26E5004385A4 /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68BD0CF02CBD26E5004385A4 /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+		68CB27822CCA273700BF28AE /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6860B5072CB6607700AB0165 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		68CB27882CCA3E2C00BF28AE /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6860B5072CB6607700AB0165 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		68EBD30C2CC75B58008D0AEE /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68EBD30B2CC75B58008D0AEE /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		68CB276E2CC9F0B800BF28AE /* OrderPastaFoodApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68CB276F2CC9F0B900BF28AE /* OrderPastaFoodApp.xcdatamodel */,
+			);
+			currentVersion = 68CB276F2CC9F0B900BF28AE /* OrderPastaFoodApp.xcdatamodel */;
+			name = OrderPastaFoodApp.xcdatamodeld;
+			path = /Users/fathir/Documents/OrderPastaFoodApp/OrderPastaFoodApp/OrderPastaFoodApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 689125982CB4E4D600A47A44 /* Project object */;
 }

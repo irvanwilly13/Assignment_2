@@ -26,18 +26,27 @@
                                     <constraint firstAttribute="width" constant="184" id="CnB-t6-gdh"/>
                                     <constraint firstAttribute="height" constant="120" id="n0V-X6-Aad"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwD-ZI-Vnz">
                                 <rect key="frame" x="8" y="127" width="184" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Im8-j3-gWz">
                                 <rect key="frame" x="8" y="150" width="184" height="12"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -52,6 +61,9 @@
                             <constraint firstItem="Im8-j3-gWz" firstAttribute="top" secondItem="jwD-ZI-Vnz" secondAttribute="bottom" constant="2" id="nLJ-N6-6g9"/>
                             <constraint firstItem="CIn-Zk-zgy" firstAttribute="leading" secondItem="QQo-xh-47H" secondAttribute="leading" constant="8" id="v8X-r4-pYD"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
                     </view>
                 </subviews>
             </view>
@@ -63,6 +75,9 @@
                 <constraint firstItem="QQo-xh-47H" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="tc2-fN-xeY"/>
             </constraints>
             <size key="customSize" width="200" height="188"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
             <connections>
                 <outlet property="descriptionLabel" destination="Im8-j3-gWz" id="LMG-aS-HEd"/>
                 <outlet property="imgView" destination="CIn-Zk-zgy" id="9UV-qq-DOw"/>

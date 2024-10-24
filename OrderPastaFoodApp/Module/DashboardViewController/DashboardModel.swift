@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-enum FoodCategory: String, CaseIterable {
+enum FoodCategory: String, CaseIterable, Codable {
     case spagethi
     case lasagna
     case pizza
@@ -28,7 +28,7 @@ enum FoodCategory: String, CaseIterable {
     }
 }
 
-struct FoodItem: Hashable {
+struct FoodItem: Hashable, Codable {
     let name: String
     let description: String
     let image: String
@@ -37,7 +37,14 @@ struct FoodItem: Hashable {
     let price: Double
 }
 
-struct FoodCategoryData {
+// 1
+struct FoodModel: Codable {
+    let foodData: [FoodCategoryData]
+    let promoData: [PromotionFoodData]
+    let adsData: [AdsFoodData]
+}
+
+struct FoodCategoryData: Codable {
     let category: FoodCategory
     let items: [FoodItem]
 }
@@ -64,7 +71,7 @@ let foodData: [FoodCategoryData] = [
                             FoodItem(name: "Milk Shake", description: "Milk Shake Flavour", image: "drink3", rating: 4.8, isFavorite: true, price: 34000)])
 ]
 
-struct PromotionFoodData {
+struct PromotionFoodData: Codable {
     let name: String
     let image: String
 }
@@ -75,7 +82,7 @@ PromotionFoodData(name: "Special Offer", image: "promosi2"),
 PromotionFoodData(name: "Buy 1 Get 1", image: "promosi3")
 ]
 
-struct AdsFoodData {
+struct AdsFoodData: Codable {
     let name: String
     let image: String
     let url: String
@@ -87,3 +94,7 @@ AdsFoodData(name: "Pasta Restaurant", image: "ads2", url: "https://gambaranbrand
 AdsFoodData(name: "Pizza Information", image: "ads3", url: "https://id.wikipedia.org/wiki/Piza"),
 AdsFoodData(name: "Pasta Information", image: "ads4", url: "https://id.wikipedia.org/wiki/Pasta")
 ]
+
+
+
+

@@ -26,6 +26,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <integer key="value" value="16"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                         </subviews>
@@ -37,6 +38,9 @@
                             <constraint firstItem="Blz-lw-LQB" firstAttribute="leading" secondItem="lSj-GV-07m" secondAttribute="leading" id="Tjp-Qs-OM1"/>
                             <constraint firstAttribute="bottom" secondItem="Blz-lw-LQB" secondAttribute="bottom" id="pIe-T4-L1L"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
                     </view>
                 </subviews>
             </view>
@@ -48,6 +52,9 @@
                 <constraint firstAttribute="bottom" secondItem="lSj-GV-07m" secondAttribute="bottom" id="pnH-lL-fa2"/>
             </constraints>
             <size key="customSize" width="240" height="110"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
             <connections>
                 <outlet property="imgView" destination="Blz-lw-LQB" id="hRL-f2-B90"/>
             </connections>

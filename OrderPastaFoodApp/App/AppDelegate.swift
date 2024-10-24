@@ -6,7 +6,9 @@
 //
 
 import UIKit
+import FirebaseAnalytics
 import FirebaseCore
+import netfox
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        FirebaseConfiguration.shared.setLoggerLevel(.debug)
+        UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffset(horizontal: -1000.0, vertical: 0.0), for: .default)
+        NFX.sharedInstance().start()
         return true
     }
 

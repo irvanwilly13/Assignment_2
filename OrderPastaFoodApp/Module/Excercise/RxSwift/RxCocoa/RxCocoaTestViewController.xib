@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RxCocoaTestViewController" customModule="OrderPastaFoodApp" customModuleProvider="target">
+            <connections>
+                <outlet property="nameLabel" destination="44D-Jr-55G" id="KMt-50-g2b"/>
+                <outlet property="nameTextField" destination="avq-Hb-oYz" id="9Nu-2F-FRK"/>
+                <outlet property="numberPhoneField" destination="XXL-MI-Km9" id="GhX-1d-x7q"/>
+                <outlet property="submitButton" destination="ThI-4s-eNU" id="9G9-ym-SWn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44D-Jr-55G">
+                    <rect key="frame" x="16" y="119" width="361" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="avq-Hb-oYz" customClass="CustomInputField" customModule="OrderPastaFoodApp" customModuleProvider="target">
+                    <rect key="frame" x="16" y="153" width="361" height="123"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="123" id="9Yk-G2-dIb"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ThI-4s-eNU">
+                    <rect key="frame" x="16" y="529" width="361" height="35"/>
+                    <color key="backgroundColor" red="0.93725490570000003" green="0.65835461559999997" blue="0.21568629149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <color key="tintColor" red="1" green="1" blue="0.71704931969999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XXL-MI-Km9" customClass="CustomInputField" customModule="OrderPastaFoodApp" customModuleProvider="target">
+                    <rect key="frame" x="16" y="306" width="361" height="123"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="123" id="tBh-26-cNB"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ThI-4s-eNU" firstAttribute="top" secondItem="XXL-MI-Km9" secondAttribute="bottom" constant="100" id="27T-kn-Lie"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="avq-Hb-oYz" secondAttribute="trailing" constant="16" id="44N-wV-XHD"/>
+                <constraint firstItem="XXL-MI-Km9" firstAttribute="top" secondItem="avq-Hb-oYz" secondAttribute="bottom" constant="30" id="4w4-pF-1Z8"/>
+                <constraint firstItem="XXL-MI-Km9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="5dc-86-C5I"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ThI-4s-eNU" secondAttribute="trailing" constant="16" id="CSL-Ii-kPO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XXL-MI-Km9" secondAttribute="trailing" constant="16" id="I3A-yY-6sy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="44D-Jr-55G" secondAttribute="trailing" constant="16" id="KqP-Gu-p1W"/>
+                <constraint firstItem="ThI-4s-eNU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="UsM-VW-5Zc"/>
+                <constraint firstItem="44D-Jr-55G" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="60" id="Y9q-Ub-ULw"/>
+                <constraint firstItem="avq-Hb-oYz" firstAttribute="top" secondItem="44D-Jr-55G" secondAttribute="bottom" constant="10" id="Zch-Zr-28x"/>
+                <constraint firstItem="avq-Hb-oYz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="hng-NU-41T"/>
+                <constraint firstItem="44D-Jr-55G" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="uMn-mD-9Ij"/>
+            </constraints>
+            <point key="canvasLocation" x="136.64122137404578" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

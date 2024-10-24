@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class LeftMenuBottomSheetViewController: UIViewController {
     
     @IBOutlet weak var coachMarkView: UIView!
@@ -48,11 +49,14 @@ class LeftMenuBottomSheetViewController: UIViewController {
     }
     
     @objc func actionToLogoutButton() {
-        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-           let sceneDelegate = windowScene.delegate as? SceneDelegate {
-            sceneDelegate.handleLogout()
+        FirebaseAnalyticsManager.shared.logEvent(buttonName: "logout_button", screenName: "screen_left_menu")
+        self.dismiss(animated: true) {
+            if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+               let sceneDelegate = windowScene.delegate as? SceneDelegate {
+                sceneDelegate.handleLogout()
+            }
         }
-        self.dismiss(animated: true, completion: nil)
+        
     }
     @objc func navigateToAccountInformation() {
         let vc = ProfileViewController()

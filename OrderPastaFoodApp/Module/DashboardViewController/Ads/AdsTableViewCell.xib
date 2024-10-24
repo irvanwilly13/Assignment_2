@@ -47,6 +47,9 @@
                             <constraint firstAttribute="trailing" secondItem="X2h-Oo-QVP" secondAttribute="trailing" id="zTb-ab-CPw"/>
                             <constraint firstItem="X2h-Oo-QVP" firstAttribute="leading" secondItem="Xzk-o5-cK0" secondAttribute="leading" id="zmO-b6-WN2"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
                     </view>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -59,8 +62,14 @@
                     <constraint firstItem="Xzk-o5-cK0" firstAttribute="top" secondItem="5zy-Rk-CRX" secondAttribute="bottom" constant="5" id="dZq-1j-v4n"/>
                     <constraint firstItem="Xzk-o5-cK0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="oNV-fi-i54"/>
                 </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                </userDefinedRuntimeAttributes>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
             <connections>
                 <outlet property="containerView" destination="Xzk-o5-cK0" id="FWL-tg-rmx"/>
                 <outlet property="imgView" destination="X2h-Oo-QVP" id="yeC-Ts-BQf"/>

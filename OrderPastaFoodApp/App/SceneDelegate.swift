@@ -9,6 +9,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
         
+        RemoteConfigManager.shared.fetchAndStoreRemoteConfig()
+        
         if let tokenData = KeychainHelper.shared.read(forKey: "firebaseAuthToken"),
            let token = String(data: tokenData, encoding: .utf8) {
             let tabBar = MainTabBarController()
