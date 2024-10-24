@@ -25,7 +25,7 @@ class LoginViewController: BaseViewController {
     }
     
     func configure() {
-        usernameField.setup(title: "Username", placeholder: "Masukkan Username")
+        usernameField.setup(title: "Username", placeholder: "Masukkan Username Dong")
         passwordField.setup(title: "Password", placeholder: "Masukkan Password")
     }
     
