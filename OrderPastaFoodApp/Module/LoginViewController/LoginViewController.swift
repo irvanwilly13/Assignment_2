@@ -69,7 +69,7 @@ class LoginViewController: BaseViewController {
     //
     @objc func actionTologinButton() {
         guard let email = usernameField.textField.text, let password = passwordField.textField.text else {
-            showAlert(message: "Tidak boleh kosong")
+            showAlert(message: "Tidak boleh gada isinya")
             return
         }
         Auth.auth().signIn(withEmail: email, password: password) { (authResult, error) in
